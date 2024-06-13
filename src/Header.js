@@ -22,11 +22,12 @@ export default function Nav({ id, name: firstName, age, img = 'image10.jpg', chi
                                 <form className='flex flex-col items-center my-10 basis-1/2 w-48'>
                                       <div className='mb-4'>  
                                         <label className='block text-sm text-gray-400 mb-1'>Email Address</label>
-                                        <input className='w-full bg-transparent bg-gray-100 rounded-lg px-2 py-1 border-2' type='text' placeholder='admin@gmail.com'/>
+                                        <input className='text-sm w-full bg-transparent bg-gray-100 rounded-lg px-4 py-1 border-2 outline-primary' type='text' placeholder='admin@gmail.com'/>
                                       </div>
                                       <div className='mb-4'>  
+                                        <a  href='#' className='block text-sm text-primary font-bold text-right'>Forget Password?</a>
                                         <label className='block text-sm text-gray-400 mb-1'>Password</label>
-                                        <input className='w-full bg-transparent rounded-lg px-2 py-1 border-2' type='password' placeholder='password'/>
+                                        <input className=' text-sm w-full bg-transparent rounded-lg px-4 py-1 border-2 outline-primary  ' type='password' placeholder='password'/>
                                       </div>
                                       <div>
                                         <button className='bg-primary w-48 px-2 py-1 text-white rounded-lg' type='submit'>Sign in</button>
